@@ -13,11 +13,21 @@ If you attempt to run the calculator before installing dependencies, Python will
 
 Follow these steps to set up your virtual environment and run the application:
 
-### 1. Activate Your Virtual Environment
-Make sure your terminal is inside the root directory (`python-example`) and activate your virtual environment (you should see `(.venv)` in your prompt):
+### 1. Create and Activate a Virtual Environment
+If you haven't already created a virtual environment in the project directory, open your terminal in the root `python-example` directory and run:
+
+#### A. Create the Virtual Environment:
+```cmd
+python -m venv .venv
+```
+*(Wait a few seconds for Python to generate the `.venv` folder).*
+
+#### B. Activate the Virtual Environment:
+Choose the command that matches your terminal shell (once active, you will see `(.venv)` at the beginning of your command line prompt):
 - **Command Prompt (CMD):** `.venv\Scripts\activate.bat`
 - **PowerShell:** `.venv\Scripts\Activate.ps1`
 - **Git Bash:** `source .venv/Scripts/activate`
+
 
 ### 2. Install the Dependencies
 With your virtual environment active, run the following command from the root folder to install the required libraries:

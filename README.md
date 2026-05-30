@@ -14,6 +14,7 @@ python-example/
 │   ├── calculator.py      # Sleek Tkinter GUI Calculator source code
 │   ├── requirements.txt   # Third-party dependency definition for the app
 │   └── README.md          # Guide on how to run and understand the calculator
+├── .gitignore             # Tells Git which files/folders to ignore (e.g. .venv)
 ├── LICENSE                # Repository License
 └── README.md              # This Windows Python environment setup guide
 ```
@@ -181,4 +182,6 @@ This contains a simple, sleek GUI Calculator application written in Python. It h
 * **VS Code Integration:** Always make sure your VS Code interpreter points to your virtual environment (as detailed in Step 6) to avoid false-positive error highlights.
 * **PATH issues:** If typing `python` opens the Microsoft Store, it means either Python is not installed, or you forgot to check the **"Add python.exe to PATH"** box during installation. Run the installer again, choose **Modify**, and ensure PATH is checked.
 * **Keep it clean:** Always activate your virtual environment *before* running or installing packages using `pip install`. Never install packages globally!
+* **Git Version Control:** Never commit your `.venv` directory to Git! We have included a `.gitignore` file in this repository to prevent Git from tracking the virtual environment files, as they are machine-specific and can be very large.
+
 

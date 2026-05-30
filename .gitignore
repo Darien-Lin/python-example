@@ -1,0 +1,11 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and compilation files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
